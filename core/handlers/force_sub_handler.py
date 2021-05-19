@@ -1,5 +1,6 @@
+import asyncio
 from configs import Config
-from pyrogram.errors import UserNotParticipant
+from pyrogram.errors import FloodWait, UserNotParticipant
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
